@@ -1,0 +1,3 @@
+5.1 cp ../my-first-project/temp-* . copies files. cp means copy. ../my-first-project/temp-* is the source: go up one folder, then into my-first-project, and take all file whose name starts with temp- (the * matches anything). The . is the destination, which means the current folder.
+5.2 i do not need git init because git clone already created the repo. The folder came from GitHub with its hidden .git directory included.
+5.3 To commit, i stage the files with git add, and then run git commit -m "message".
